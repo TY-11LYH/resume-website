@@ -1,0 +1,5 @@
+# 忽略不需要的文件
+.DS_Store
+Thumbs.db
+*.log
+node_modules

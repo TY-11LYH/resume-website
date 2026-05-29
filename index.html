@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>童瑶 | 个人简历</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">RESUME</div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#education">学历背景</a></li>
+                    <li><a href="#internship">实习经历</a></li>
+                    <li><a href="#projects">项目经历</a></li>
+                    <li><a href="#campus">校园经历</a></li>
+                    <li><a href="#skills">技能证书</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                    <li><a href="#pdf-section">PDF下载</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="profile-section">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Ccircle cx='75' cy='75' r='75' fill='%237CB342'/%3E%3Ctext x='75' y='95' text-anchor='middle' fill='white' font-size='60'%3E童%3C/text%3E%3C/svg%3E" alt="头像" class="avatar">
+            <div class="hero-text">
+                <h1>童瑶</h1>
+            </div>
+        </div>
+        <div class="contact-info" id="hero-contact">
+            <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <a href="mailto:1716880166@qq.com">1716880166@qq.com</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <a href="tel:+8618267919140">+86 182 6791 9140</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <span>浙江</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">👤</span>
+                <span>24周岁</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">学历背景</h2>
+        <div class="timeline" id="education-timeline">
+            <!-- Education items will be loaded here -->
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship">
+        <h2 class="section-title">实习经历</h2>
+        <div class="timeline" id="internship-timeline">
+            <!-- Internship items will be loaded here -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">项目经历</h2>
+        <div class="projects-grid" id="projects-grid">
+            <!-- Project items will be loaded here -->
+        </div>
+    </section>
+
+    <!-- Campus Experience Section -->
+    <section id="campus">
+        <h2 class="section-title">校园经历</h2>
+        <div class="timeline" id="campus-timeline">
+            <!-- Campus experience items will be loaded here -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">技能证书</h2>
+        <div class="skills-container" id="skills-container">
+            <!-- Skills will be loaded here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">联系方式</h2>
+        <div class="contact-section">
+            <p>欢迎与我联系，期待与您的交流</p>
+            <div class="contact-grid" id="contact-grid">
+                <!-- Contact info will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- PDF Section -->
+    <section id="pdf-section">
+        <h2 class="section-title">PDF简历</h2>
+        <div class="pdf-section">
+            <div class="pdf-container">
+                <object data="resume.pdf" type="application/pdf" class="pdf-object">
+                    <iframe src="resume.pdf" class="pdf-iframe"></iframe>
+                </object>
+            </div>
+            <button class="download-pdf-btn" id="downloadPdfBtn">
+                <span>📥</span> 下载PDF简历
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 童瑶. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
