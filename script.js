@@ -6,7 +6,7 @@ const resumeData = {
     "phone": "+86 182 6791 9140",
     "location": "浙江",
     "age": "24周岁",
-    "avatar": "https://maas-log-prod.cn-wlcb.ufileos.com/anthropic/03b2223f-54d1-4abf-8e88-3f94c77e0f52/42317cc0e4054b9b3bb421a83cbae0ca.jpg?UCloudPublicKey=TOKEN_e15ba47a-d098-4fbd-9afc-a0dcf0e4e621&Expires=1780035114&Signature=P6+OynPQHsSBC4WHJ5nCMxBAL/0="
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=TY&backgroundColor=7CB342"
   },
   "education": [
     {
