@@ -1,134 +1,119 @@
-# 童瑶的个人简历网站
+# 童瑶个人简历网站
 
-这是一个基于《Her》电影风格的个人简历网站，部署在GitHub Pages上，任何人都可以访问。
+现代化的个人简历网站，采用Her Movie风格设计，完全响应式布局。
 
-## 网站特点
+## 🌐 在线访问
 
-- 🎨 **Her电影风格设计**：温暖的米色调，绿色点缀
-- 📱 **完全响应式**：支持桌面和移动设备
-- 📄 **完整简历展示**：包含教育背景、实习经历、项目经历等
-- 📥 **PDF下载**：可以直接下载完整PDF简历
-- 🌐 **公共访问**：通过GitHub Pages实现全球访问
+**GitHub Pages地址：** https://ty-11lyh.github.io/resume-website/
 
-## 如何部署到GitHub Pages
+## 📋 简历内容
 
-### 方法一：使用GitHub网页界面
+### 🎓 教育背景
+- **教育学硕士** (2024.09-2027.06) | 浙江师范大学
+- **小学数学教育本科** (2020.10-2024.06) | 浙江师范大学
+
+### 💼 实习经历
+1. **喜马拉雅平台** - 有声内容运营实�� (2026.03-2026.06)
+   - AI工具开发，效率提升95%+
+   - 数据驱动决策管理
+   - 用户运营沟通协调
+
+2. **浙江银泰百货** - 市场部运营实习 (2025.10-2026.01)
+   - 全平台新媒体运营
+   - 数据驱动内容策略
+
+3. **金华东苑小学** - 数学实习教师 (2023.03-2023.11)
+   - 教学创新与实践
+
+4. **金华家教平台** - 社群运营 (2021.06-2023.06)
+   - 用户需求对接与商业转化
+
+### 🔧 核心技能
+- **AI与技术能力：** AI工具开发、Python基础、自动化脚本设计、算法应用
+- **数据分析：** Excel高级应用、数据可视化、用户行为分析
+- **产品运营：** 用户需求洞察、产品化思维、数据驱动决策
+- **内容创作：** 图文内容生产、短视频运营、跨平台内容适配
+
+### 🏆 项目经历
+- 部级课题《中国与南非教育合作研究》
+- 部级课题《中国对非洲青年国际传播的战略环境与策略路径研究》
+
+## 🎨 设计特色
+
+- **Her Movie风格：** 温暖的米色背景配合绿色点缀
+- **完全响应式：** 完美适配桌面和移动设备
+- **现代化布局：** 清晰的排版，优雅的动画效果
+- **PDF展示下载：** 完整简历PDF在线查看与下载
+
+## 📞 联系方式
+
+- **邮箱：** 1716880166@qq.com
+- **电话：** +86 182 6791 9140
+- **GitHub：** https://github.com/TY-11LYH/my-tools
+
+## 🚀 GitHub Pages部署步骤
+
+### 方法一：网页界面部署（推荐）
 
 1. **创建GitHub仓库**
-   - 登录GitHub，创建一个新仓库（如：resume-website）
-   - 仓库设为公开（Public）
+   - 访问 https://github.com/new
+   - 仓库名称：`resume-website`
+   - 设置为公开（Public）
+   - 点击 "Create repository"
 
 2. **上传文件**
-   - 将以下文件上传到仓库：
+   - 在仓库页面点击 "uploading an existing file"
+   - 上传以下文件：
      - `index.html`
      - `style.css`
      - `script.js`
      - `resume.pdf`
+     - `README.md`
 
 3. **启用GitHub Pages**
-   - 进入仓库的 Settings → Pages
-   - 在 "Source" 下选择 "Deploy from a branch"
-   - 选择 "main" 分支和 "/ (root)" 目录
+   - 进入仓库 Settings → Pages
+   - Source选择 "Deploy from a branch"
+   - Branch选择 "main"，目录选择 "/ (root)"
    - 点击 Save
 
-4. **等待部署完成**
-   - GitHub会自动部署网站（通常需要1-2分钟）
-   - 部署完成后会显示网站URL
+4. **等待部署**
+   - 1-2分钟后网站会部署完成
+   - 访问地址：`https://你的用户名.github.io/resume-website/`
 
-### 方法二：使用Git命令行
+### 方法二：Git命令行部署
 
 ```bash
-# 1. 初始化git仓库
-cd gh-pages
+# 1. 创建GitHub仓库（网页端）
+# 访问 https://github.com/new 创建仓库
+
+# 2. 在gh-pages目录中执行
+cd "C:\Users\xbjt\ZCodeProject\resume-website\gh-pages"
 git init
-
-# 2. 添加文件
 git add .
+git commit -m "Initial commit: Personal Resume Website"
 
-# 3. 提交更改
-git commit -m "Initial commit"
-
-# 4. 创建GitHub仓库后，添加远程仓库
-git remote add origin https://github.com/你的用户名/resume-website.git
-
-# 5. 推送到GitHub
+# 3. 添加远程仓库（替换为你的仓库地址）
+git remote add origin https://github.com/TY-11LYH/resume-website.git
 git branch -M main
 git push -u origin main
 
-# 6. 在GitHub仓库设置中启用Pages
+# 4. 在GitHub仓库设置中启用Pages
 ```
 
-## 更新网站内容
+## 📝 更新网站内容
 
-### 更新简历信息
+### 快速更新流程
 
-1. 编辑 `script.js` 文件中的 `resumeData` 对象
-2. 修改对应的个人信息、经历、技能等
-3. 提交更改到GitHub
-
-### 更新PDF简历
-
-1. 将新的PDF文件命名为 `resume.pdf`
-2. 替换项目中的 `resume.pdf` 文件
-3. 提交更改到GitHub
-
-### 修改设计风格
-
-编辑 `style.css` 文件可以调整：
-- 颜色方案
-- 布局样式
-- 响应式设计
-- 动画效果
-
-## 网站结构
-
-```
-gh-pages/
-├── index.html      # 主页面
-├── style.css       # 样式文件
-├── script.js       # 数据和交互逻辑
-├── resume.pdf      # 简历PDF文件
-└── README.md       # 说明文档
-```
-
-## 主要特性
-
-- ✅ 无需服务器，纯静态网站
-- ✅ 所有数据嵌入JavaScript，无需API
-- ✅ 支持PDF在线预览和下载
-- ✅ 移动端友好设计
-- ✅ 平滑滚动导航
-- ✅ 响应式布局
-
-## 自定义域名（可选）
-
-如果想要自定义域名：
-
-1. 购买域名（如：tongyao-resume.com）
-2. 在GitHub仓库的Settings → Pages中设置自定义域名
-3. 按照指示配置DNS记录
-
-## 维护和更新
-
-定期更新简历信息：
-- 📝 更新工作经历
-- 📚 添加新技能或证书
-- 🏆 更新获奖情况
-- 📄 更新PDF简历版本
-
-## 技术栈
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- GitHub Pages
-
-## 联系方式
-
-如有问题或建议，欢迎联系：
-- 📧 Email: 1716880166@qq.com
-- 📱 Phone: +86 182 6791 9140
+1. **修改内容：** 编辑 `script.js` 中的简历数据
+2. **更新PDF：** 替换 `resume.pdf` 文件
+3. **提交更改：**
+   ```bash
+   git add .
+   git commit -m "更新简历内容"
+   git push
+   ```
+4. **自动部署：** GitHub Pages会在1-2分钟内自动更新
 
 ---
 
-© 2025 童瑶. 保留所有权利.
+© 2026 童瑶. 保留所有权利.
